@@ -10,6 +10,8 @@ function about() {
         <p>
           OK. Jestem w branchu o nazwie secondBranch
           teraz dodam sobie commita 
+          na branchu secondBranch poszedł git rebase main pozniej checkout na main i git rebase secondBranch
+          teraz commit
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vel
