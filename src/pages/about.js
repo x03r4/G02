@@ -9,6 +9,7 @@ function about() {
         <p>Lets change something</p>
         <p>
           OK. Jestem w branchu o nazwie secondBranch
+          teraz dodam sobie commita 
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vel
