@@ -1,8 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-export default function 
-() {
+export default function Navbar() {
   return (
     <nav>
         <h1>G02</h1>
