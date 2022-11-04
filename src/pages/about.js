@@ -14,7 +14,8 @@ function about() {
           teraz commit
         </p>
         <p>
-          rozwiązujemy zagadki gita
+          rozwiązujemy zagadki gita <br />
+          one eternity later xD
         </p>
       </div>
     </Layout>
