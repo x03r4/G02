@@ -21,5 +21,6 @@ module.exports = {
     description: "web dev portfolio with Gatsby",
     copyright: "This website is copyright 2022 DJK",
     author: "DJK",
+    contact: "me@mymail.com",
   },
 }
