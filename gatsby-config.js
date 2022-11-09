@@ -17,7 +17,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "G02 with TheNetNinja",
+    title: "DJK",
     description: "web dev portfolio with Gatsby",
     copyright: "This website is copyright 2022 DJK",
     author: "DJK",
