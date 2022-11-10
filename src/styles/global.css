@@ -18,6 +18,8 @@ body {
     rgba(43, 9, 107, 1) 100%
   );
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 p {
   margin: 16px auto;
@@ -48,8 +50,14 @@ nav a {
 nav a:hover {
   border-color: white;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  /* border: 1px solid white; */
+  min-width: 1200px;
+}
 footer p {
   text-align: center;
   color: #bbbbbb6e;
-  margin: 40px auto;
 }
