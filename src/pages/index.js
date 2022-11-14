@@ -13,12 +13,13 @@ export default function Home({ data }) {
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>UX Designer & Web Developer</p>
+           <p>{ title } - { description } - { author }</p>
           <Link to="/projects" className={styles.btn}>
             My Portfolio Projects
           </Link>
         </div>
-        <img src="/banner.png" alt="banner" style={{ maxWidth:"100%"}}/>
-        <p>{ title } - { description } - { author }</p>
+        <img src="/banner.png" alt="banner" style={{ maxWidth:"80%" }}/>
+       
       </section>
     </Layout>
   )
