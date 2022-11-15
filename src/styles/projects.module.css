@@ -1,5 +1,10 @@
 .portfolio {
     text-align: center;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .portfolio > h2 {
     font-size: 3em;

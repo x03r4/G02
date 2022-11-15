@@ -2,12 +2,14 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image"
+
 
 export default function Home({ data }) {
   console.log(data)
   const { title, description, author } = data.site.siteMetadata
-  const { fluid } = data.file.childImageSharp
+  // const { fluid } = data.file.childImageSharp
   return (
     <Layout>
       <section className={styles.header}>
@@ -22,7 +24,8 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-        <Img fluid={fluid} />
+        {/* <Img fluid={fluid} /> */}
+        <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
       </section>
     </Layout>
   )
@@ -37,11 +40,10 @@ export const query = graphql`
         author
       }
     }
-    file(relativePath: { eq: "banner.png" }) {
+
+    file(relativePath: { eq: "banner2.png" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: FULL_WIDTH)
       }
     }
   }

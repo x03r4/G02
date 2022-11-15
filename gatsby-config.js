@@ -27,10 +27,10 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "DJK",
-    description: "web dev portfolio with Gatsby",
+    title: "Site_Title",
+    description: "Website description",
     copyright: "This website is copyright 2022 DJK",
-    author: "DJK",
-    contact: "me@mymail.com",
+    author: "Website Author",
+    contact: "my_email_adress@mymail.com",
   },
 }
