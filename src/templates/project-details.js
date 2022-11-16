@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Img from 'gatsby-image'
 import * as styles from '../styles/project-details.module.css'
 
 function ProjectDetails() {
