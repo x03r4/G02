@@ -65,7 +65,9 @@ export const query = graphql`
 
     file(relativePath: { eq: "banner2.png" }) {
       childImageSharp {
-        gatsbyImageData(layout: FULL_WIDTH)
+        gatsbyImageData(
+          layout: FULL_WIDTH
+        )
       }
     }
   }
